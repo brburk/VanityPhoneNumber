@@ -14,6 +14,7 @@ To be able to find words from the resulting combinations I included a NPM/Layer 
 Using the word bank I was able to find the occurences of english words within the combinations.
 Sorting by descending length I assumed the best fit to be those that use the most digits/word length.
 Then the top 5 results are written to the DynamoDB table.
+Encountered an issue with Connect not awaiting the full length of the Lambda function I was able to overcome this by optimzing the execution time.
 For added efficiency I added a function to check if the caller already had results in the database and short circuit the function if they did.
 
 
