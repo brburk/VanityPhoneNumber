@@ -53,7 +53,6 @@ exports.handler = async (event, context, callback) => {
     // Short circuit function if results already exist by Phone #
     let foundRecord = await validateAlreadyExist(phone);
     if(!!foundRecord){
-        console.log(foundRecord);
         return foundRecord;
     }
     
