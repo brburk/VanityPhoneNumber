@@ -24,7 +24,7 @@ I used the Phone number as the index of the table.
 Granted all resources/functionality to the Lambda function for DynamoDB.
 
 # 3. What would you have done with more time? We know you have a life. :-)
-Given more time, I would have created the deployment package and web app to display the most recent 5 callers results.
+Given more time, I would have detailed better documentation, created the deployment package, and a web app to display the most recent 5 callers results.
 
 # 4. BONUS - Please include an architecture diagram.
 VanityArchitectureDiagram.png (included)
