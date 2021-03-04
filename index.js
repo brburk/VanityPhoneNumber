@@ -50,6 +50,7 @@ exports.handler = async (event, context, callback) => {
     // Use Phone number from Connect
     const phone = event.Details.Parameters.custPhone;
     
+    // Short circuit function if results already exist by Phone #
     let foundRecord = await validateAlreadyExist(phone);
     if(!!foundRecord){
         console.log(foundRecord);
